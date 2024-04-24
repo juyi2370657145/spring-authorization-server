@@ -1,33 +1,42 @@
-README.md
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Eclipse
+.classpath
+.project
+.settings
+
+# IntelliJ IDEA
+*.iml
+*.ipr
+*.iws
+.idea
+
+# VS Code
+.vscode/
+
+# Vim
+.*.swp
+
+# Maven
+.checkstyle
+/release.properties
+pom.xml.releaseBackup
 target/
-!.mvn/wrapper/maven-wrapper.jar
+test-output/
 !**/src/main/**/target/
 !**/src/test/**/target/
 
-### STS ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Python
+*.pyc
+*.pyo
+.ropeproject
 
-### IntelliJ IDEA ###
-.idea
-*.iws
-*.iml
-*.ipr
+# Node.js
+node_modules/
 
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-.vscode/
+# JasperReports
+*.jasper
