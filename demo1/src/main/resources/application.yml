@@ -8,6 +8,8 @@ spring:
     oauth2:
       authorizationserver:
         issuer: http://127.0.0.1:8080
+#        一个设备启动server，client，resource需要修改认证服务器地址，在host添加dns
+#        issuer: http://auth-server:8080
   sql:
     init:
       schema-locations: classpath:init-h2.sql

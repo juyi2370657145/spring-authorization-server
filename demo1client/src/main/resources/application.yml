@@ -18,7 +18,7 @@ spring:
             # oauth认证提供者配置，和上边配置的认证提供者关联起来
             provider: custom-issuer
             # 客户端id，从认证服务申请的客户端id
-            client-id: pkce-message-client
+            client-id: messaging-client
             # 客户端秘钥
             client-secret: 123456
             # 客户端认证方式
@@ -26,7 +26,7 @@ spring:
             # 获取Token使用的授权流程
             authorization-grant-type: authorization_code
             # 回调地址，这里设置为Spring Security Client默认实现使用code换取token的接口
-            redirect-uri: http://127.0.0.1:8080/login/oauth2/code/messaging-client-oidc
+            redirect-uri: http://127.0.0.1:8000/login/oauth2/code/messaging-client-oidc
             scope:
               - message.read
               - message.write

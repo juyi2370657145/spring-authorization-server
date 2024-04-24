@@ -397,6 +397,7 @@ public class AutoConfig {
    */
   @Bean
   public AuthorizationServerSettings authorizationServerSettings() {
+//    与资源服务器，客户端服务配合使用时需要配置toke中iss为资源服务器地址。
 //    return AuthorizationServerSettings.builder().issuer("http://auth-server:8080").build();
     return AuthorizationServerSettings.builder().build();
   }

@@ -28,3 +28,8 @@ curl --location --request POST 'http://127.0.0.1:8080/oauth2/token' \
 ```
 
 > dXNlci1jbGllbnQ6MTIzNDU2= 是{$clientId}:{$clientSecret}拼接Base64编码
+
+
+5.[添加资源服务器](https://blog.csdn.net/weixin_43356507/article/details/131190785)
+
+[添加客户端服务器](https://blog.csdn.net/weixin_43356507/article/details/131173945)
